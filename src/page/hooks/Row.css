@@ -1,0 +1,67 @@
+.rows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rows-item {
+    width: 300px;
+    padding: 10px 20px;
+    background-color: rgb(210, 220, 222);
+}
+
+.name {
+    font-size: 14px;
+    color: #666;
+}
+
+.desc {
+    margin-top: 5px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+input {
+    border: 0;
+    outline: none;
+    background-color: rgb(210, 220, 222);
+    font-size: 26px;
+    font-weight: 700;
+    border-radius: 5px;
+
+}
+
+input:focus {
+    background-color: rgb(160, 171, 172);
+}
+.themesDark{
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+}
+.themesDark .rows-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(226, 188, 44);
+}
+
+.themesDark .name:before, .themesDark .name:after {
+    content: "";
+    width: 100px;
+    border-top: 1px #666 solid;
+    display: inline-block;
+    vertical-align: middle;
+}
+.themesDark .name:before{
+    margin-right: 10px;
+}
+.themesDark .name:after{
+    margin-left: 10px;
+}
+
+.themesDark input {
+    text-align: center;
+    background-color: rgb(226, 188, 44);
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+}
