@@ -1,3 +1,5 @@
+//__webpack_public_path__ = 'https://cdn.demo.com';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
